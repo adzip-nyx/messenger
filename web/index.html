@@ -3,19 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/index.css">
     <title>ADZIP-NYX Messenger</title>
 </head>
 <body class="page__body">
     <main class="app">
-        <!-- <nav class="nav">
-            <ul class="nav__buttons">
-                <li class="nav__buttons--button"><button class="nav__buttons--button-minimize"></button></li>
-                <li class="nav__buttons--button"><button class="nav__buttons--button-maximize"></button></li>
-                <li class="nav__buttons--button"><button class="nav__buttons--button-close"></button></li>
-            </ul>
-        </nav> -->
-        <div class="sidebar">
+        <aside class="sidebar">
             <div class="header">
                 <div class="header__heading">
                     <h1 class="header__heading--title">Чаты</h1>
@@ -27,15 +20,40 @@
                 <div class="actions">
                     <div class="actions__action">
                         <div class="actions__action--icon"><img class="actions__action--icon-img" src="./assets/icons/actions/call.svg" alt="Call"></div>
-                        <p class="actions__action--subtitle">Call</p>
                     </div>
                     <div class="actions__action">
                         <div class="actions__action--icon"><img class="actions__action--icon-img" src="./assets/icons/actions/video-call.svg" alt="Video call"></div>
-                        <p class="actions__action--subtitle">Video call</p>
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="main">
+                <ul class="chats">
+                    <li class="chats__item">
+                        <img class="chats__item--image" src="./assets/icons/person.svg" alt="Person">
+                        <p class="chats__item--name">Eugene Veselov</p>
+                        <p class="chats__item--message">Lorem ipsum dolor sit, amet consectetur.Lorem ipsum dolor sit, amet consectetur.Lorem ipsum dolor sit, amet consectetur.</p>
+                    </li>
+                    <li class="chats__item">
+                        <img class="chats__item--image" src="./assets/icons/person.svg" alt="Person">
+                        <p class="chats__item--name">Eugene Veselov</p>
+                        <p class="chats__item--message">Lorem ipsum dolor sit, amet consectetur.</p>
+                    </li>
+                    <li class="chats__item chats__item--select">
+                        <img class="chats__item--image" src="./assets/icons/person.svg" alt="Person">
+                        <p class="chats__item--name">Eugene Veselov</p>
+                        <p class="chats__item--message">Lorem ipsum dolor sit, amet consectetur.Lorem ipsum dolor sit, amet consectetur.</p>
+                    </li>
+                    <li class="chats__item">
+                        <img class="chats__item--image" src="./assets/icons/person.svg" alt="Person">
+                        <p class="chats__item--name">Eugene VeselovEugene VeselovEugene VeselovEugene VeselovEugene VeselovEugene VeselovEugene VeselovEugene Veselov</p>
+                        <p class="chats__item--message">Lorem ipsum dolor sit, amet consecteturLorem ipsum dolor sit, amet consectetur.Lorem ipsum dolor sit, amet consectetur.Lorem ipsum dolor sit, amet consectetur.Lorem ipsum dolor sit, amet consectetur.Lorem ipsum dolor sit, amet consectetur.Lorem ipsum dolor sit, amet consectetur.Lorem ipsum dolor sit, amet consectetur.Lorem ipsum dolor sit, amet consectetur.Lorem ipsum dolor sit, amet consectetur.Lorem ipsum dolor sit, amet consectetur.Lorem ipsum dolor sit, amet consectetur..</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer">
+                
+            </div>
+        </aside>
         <div class="workspace">
 
         </div>

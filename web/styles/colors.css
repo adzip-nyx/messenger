@@ -1,0 +1,19 @@
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg-primary: #fff;
+        --bg-secondary: #E9E9E9;
+        --bg-hover: #dcdcdc;
+        --bg-sidebar: #F5F5F5;
+        --bg-accent: #5caeff;
+
+        --text-primary: #212121;
+        --text-secondary: #9C9C9C;
+        --text-placeholder: #B7B7B7;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+
+    }
+}
