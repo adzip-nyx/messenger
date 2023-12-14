@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "electron": "^27.1.2"
-  },
-  "scripts": {
-    "start": "electron main.js"
-  }
-}
